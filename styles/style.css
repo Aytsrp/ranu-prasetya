@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'PPEditorialNew';
+    src: url(/assets/fonts/PPEditorialNew-Regular.otf), format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: 'PPEditorialNew', sans-serif;
+    scroll-behavior: smooth;
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.navbar-toggler {
+    border: none;
+    background: none;
+    padding: 0.25rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url(/assets/images/hamburger_icon.png);
+}
+
+
+section, footer {
+    scroll-snap-align: start;
+}
+
+.jumbotron {
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/background_jumbotron.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home {
+    background-image: url(/assets/images/background_home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .profile-img {
+        height: 320px;
+    }
+}
+
+.skills {
+    background-image: url(/assets/images/background_skills.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about {
+    background-image: url(/assets/images/background_about.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hobbies{
+    background-image: url(/assets/images/background_hobbies.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portofolio {
+    background-image: url(/assets/images/background_portofolio.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    background-image: url(/assets/images/background_contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card{
+    border-radius: 2rem;  
+}
+
+.card-title{
+    color: white;
+}
+
+.card-img-top{
+    border-radius: 2rem 2rem 0 0;
+    object-fit: cover;
+    height: 220px;
+}
+
+.carousel-inner {
+    height: 70vh;
+}
+
+.carousel-item {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: #D8125B;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+.as-text,
+.title-text {
+  font-size: 3rem; /* Ukuran default untuk HP */
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .as-text {
+    font-size: 2rem;
+  }
+
+  .title-text {
+    font-size: 5rem;
+  }
+}
