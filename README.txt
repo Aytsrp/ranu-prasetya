@@ -1,4 +1,4 @@
-## 🌏 Website Portofolio - Ranu Riang Prasetya
+## 🌏 Website Portfolio - Ranu Riang Prasetya
 
     Website ini dibangun dengan pendekatan desain yang unik dan berbeda dari tampilan umum (antimainstream). Proses pembuatan melibatkan penggunaan Adobe Photoshop untuk merancang aset visual seperti latar belakang (background) dan logo, sehingga tampilan lebih personal dan original. Website ini juga memiliki custom font yang saya download sendiri dan juga menggunakan favicon generator pada internet untuk mengubah logo menjadi icon pada tab website. Dalam proses pengembangan, bantuan dari AI juga digunakan sebagai referensi dan solusi saat mengalami masalah, mengingat pengetahuan saya tentang Bootstrap masih terbatas. Website ini membuat saya belajar banyak tentang kustomisasi yang bisa dilakukan Bootstrap. Website ini juga memiliki css yang saya buat sendiri seperti class glass untuk membuat efek transparan pada card, dan juga untuk kustomisasi default class dari bootstrap sesuai keinginan saya.
 
@@ -83,6 +83,8 @@
     - Bootstrap 5 (melalui CDN)
 
 ## 🧑‍💻 Creator
+
+    ranu-prasetya.app.vercel
 
     ㅤ⠀⠀⠀⠀ ⠀⢀⣤⣄
     ⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⡆ ⣠⣶⣿⣶⡀
