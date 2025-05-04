@@ -1,108 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-  <title>About</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180"
+      href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <title>Contact | Ranu Prasetya Website</title>
+  </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #D8125B;">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white">
-        <img src="assets/images/logo.png" style="height: 30px;">
-      </a>
-      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-white text-uppercase fw-medium" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-uppercase fw-medium" href="/about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-uppercase fw-medium" href="/portofolio.html">Portofolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white text-uppercase fw-medium" href="/contact.html">Contact</a>
-          </li>
-        </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top"
+      style="background-color: #D8125B;">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white">
+          <img src="assets/images/logo.png" style="height: 30px;">
+        </a>
+        <button class="navbar-toggler text-white" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end"
+          id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-medium"
+                href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-medium"
+                href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-medium"
+                href="/portofolio.html">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-medium"
+                href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="contact d-flex p-5 min-vh-100">
+      <div class="card glass mt-5 w-100">
+        <div class="card-body text-white container">
+          <h1 class="text-center mb-2">LEAVE ME A MESSAGE HERE</h1>
+          <form>
+            <div class="mb-2">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name"
+                placeholder="Your full name">
+            </div>
+
+            <div class="mb-2">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email"
+                placeholder="your@email.com">
+            </div>
+
+            <div class="mb-2">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject"
+                placeholder="What's this about?">
+            </div>
+
+            <div class="mb-4">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5"
+                placeholder="Write your message here..."></textarea>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn text-white" type="submit"
+                style="background-color: #D8125B;">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer
+    class="d-flex justify-content-between align-items-center text-white px-4 py-3"
+    style="background-color: #D8125B;">
+    <div class="container">
+      <div class="row w-100">
+        <div class="col-12 col-md-6 mb-2 mb-md-0 text-center text-md-start">
+          <p class="mb-0">Ranu Prasetya © 2025, Sebelas Maret University</p>
+        </div>
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <a href="https://x.com/lapizlazullie" target="_blank"
+            class="text-white text-decoration-none me-3">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a href="https://instagram.com/ranu.aleale" target="_blank"
+            class="text-white text-decoration-none me-3">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://linkedin.com/in/ranuprasetya" target="_blank"
+            class="text-white text-decoration-none me-3">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/aytsrp" target="_blank"
+            class="text-white text-decoration-none">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
       </div>
     </div>
-  </nav>
-  <section class="contact d-flex p-5 min-vh-100">
-    <div class="card glass mt-5 flex-grow-1 w-100">
-      <div class="card-body text-white container">
-        <h1 class="text-center mb-2">LEAVE ME A MESSAGE HERE</h1>
-        <form>
-          <div class="mb-2">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your full name">
-          </div>
-
-          <div class="mb-2">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="your@email.com">
-          </div>
-
-          <div class="mb-2">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="subject" placeholder="What's this about?">
-          </div>
-
-          <div class="mb-4">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..."></textarea>
-          </div>
-
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn text-white" type="submit" style="background-color: #D8125B;">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-</body>
-<footer class="d-flex justify-content-between align-items-center text-white px-4 py-3"
-  style="background-color: #D8125B;">
-  <div class="container">
-    <div class="row w-100">
-      <div class="col-12 col-md-6 mb-2 mb-md-0 text-center text-md-start">
-        <p class="mb-0">Ranu Prasetya © 2025, Sebelas Maret University</p>
-      </div>
-      <div class="col-12 col-md-6 text-center text-md-end">
-        <a href="https://x.com/lapizlazullie" target="_blank" class="text-white text-decoration-none me-3">
-          <i class="bi bi-twitter-x"></i>
-        </a>
-        <a href="https://instagram.com/ranu.aleale" target="_blank" class="text-white text-decoration-none me-3">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a href="https://linkedin.com/in/ranuprasetya" target="_blank" class="text-white text-decoration-none me-3">
-          <i class="bi bi-linkedin"></i>
-        </a>
-        <a href="https://github.com/aytsrp" target="_blank" class="text-white text-decoration-none">
-          <i class="bi bi-github"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </footer>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>

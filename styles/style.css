@@ -21,7 +21,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-
 .navbar-toggler {
     border: none;
     background: none;
@@ -37,7 +36,6 @@ body::-webkit-scrollbar {
     height: 1.5em;
     background-image: url(/assets/images/hamburger_icon.png);
 }
-
 
 section, footer {
     scroll-snap-align: start;
@@ -149,7 +147,7 @@ section, footer {
 
 .as-text,
 .title-text {
-  font-size: 3rem; /* Ukuran default untuk HP */
+  font-size: 3rem;
   line-height: 1;
 }
 
